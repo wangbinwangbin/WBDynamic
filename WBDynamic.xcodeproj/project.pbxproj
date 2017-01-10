@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624E93561E24C581008D0F5C /* WBDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624E934C1E24C581008D0F5C /* WBDynamic.framework */; };
+		624E935B1E24C581008D0F5C /* WBDynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E935A1E24C581008D0F5C /* WBDynamicTests.m */; };
+		624E93681E24C596008D0F5C /* WBTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 624E93661E24C596008D0F5C /* WBTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624E93691E24C596008D0F5C /* WBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E93671E24C596008D0F5C /* WBTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624E93571E24C581008D0F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624E93431E24C581008D0F5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624E934B1E24C581008D0F5C;
+			remoteInfo = WBDynamic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		624E934C1E24C581008D0F5C /* WBDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		624E93501E24C581008D0F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624E93551E24C581008D0F5C /* WBDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624E935A1E24C581008D0F5C /* WBDynamicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBDynamicTests.m; sourceTree = "<group>"; };
+		624E935C1E24C581008D0F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624E93661E24C596008D0F5C /* WBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTool.h; sourceTree = "<group>"; };
+		624E93671E24C596008D0F5C /* WBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624E93481E24C581008D0F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E93521E24C581008D0F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E93561E24C581008D0F5C /* WBDynamic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624E93421E24C581008D0F5C = {
+			isa = PBXGroup;
+			children = (
+				624E934E1E24C581008D0F5C /* WBDynamic */,
+				624E93591E24C581008D0F5C /* WBDynamicTests */,
+				624E934D1E24C581008D0F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624E934D1E24C581008D0F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624E934C1E24C581008D0F5C /* WBDynamic.framework */,
+				624E93551E24C581008D0F5C /* WBDynamicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624E934E1E24C581008D0F5C /* WBDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				624E93661E24C596008D0F5C /* WBTool.h */,
+				624E93671E24C596008D0F5C /* WBTool.m */,
+				624E93501E24C581008D0F5C /* Info.plist */,
+			);
+			path = WBDynamic;
+			sourceTree = "<group>";
+		};
+		624E93591E24C581008D0F5C /* WBDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				624E935A1E24C581008D0F5C /* WBDynamicTests.m */,
+				624E935C1E24C581008D0F5C /* Info.plist */,
+			);
+			path = WBDynamicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		624E93491E24C581008D0F5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E93681E24C596008D0F5C /* WBTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		624E934B1E24C581008D0F5C /* WBDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624E93601E24C581008D0F5C /* Build configuration list for PBXNativeTarget "WBDynamic" */;
+			buildPhases = (
+				624E93471E24C581008D0F5C /* Sources */,
+				624E93481E24C581008D0F5C /* Frameworks */,
+				624E93491E24C581008D0F5C /* Headers */,
+				624E934A1E24C581008D0F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBDynamic;
+			productName = WBDynamic;
+			productReference = 624E934C1E24C581008D0F5C /* WBDynamic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		624E93541E24C581008D0F5C /* WBDynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624E93631E24C581008D0F5C /* Build configuration list for PBXNativeTarget "WBDynamicTests" */;
+			buildPhases = (
+				624E93511E24C581008D0F5C /* Sources */,
+				624E93521E24C581008D0F5C /* Frameworks */,
+				624E93531E24C581008D0F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624E93581E24C581008D0F5C /* PBXTargetDependency */,
+			);
+			name = WBDynamicTests;
+			productName = WBDynamicTests;
+			productReference = 624E93551E24C581008D0F5C /* WBDynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624E93431E24C581008D0F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wangbin;
+				TargetAttributes = {
+					624E934B1E24C581008D0F5C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					624E93541E24C581008D0F5C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 624E93461E24C581008D0F5C /* Build configuration list for PBXProject "WBDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 624E93421E24C581008D0F5C;
+			productRefGroup = 624E934D1E24C581008D0F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624E934B1E24C581008D0F5C /* WBDynamic */,
+				624E93541E24C581008D0F5C /* WBDynamicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624E934A1E24C581008D0F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E93531E24C581008D0F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624E93471E24C581008D0F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E93691E24C596008D0F5C /* WBTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E93511E24C581008D0F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E935B1E24C581008D0F5C /* WBDynamicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624E93581E24C581008D0F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624E934B1E24C581008D0F5C /* WBDynamic */;
+			targetProxy = 624E93571E24C581008D0F5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		624E935E1E24C581008D0F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		624E935F1E24C581008D0F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		624E93611E24C581008D0F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WBDynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = test.WBDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		624E93621E24C581008D0F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WBDynamic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = test.WBDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		624E93641E24C581008D0F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WBDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.WBDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		624E93651E24C581008D0F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WBDynamicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.WBDynamicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624E93461E24C581008D0F5C /* Build configuration list for PBXProject "WBDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E935E1E24C581008D0F5C /* Debug */,
+				624E935F1E24C581008D0F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624E93601E24C581008D0F5C /* Build configuration list for PBXNativeTarget "WBDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E93611E24C581008D0F5C /* Debug */,
+				624E93621E24C581008D0F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		624E93631E24C581008D0F5C /* Build configuration list for PBXNativeTarget "WBDynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E93641E24C581008D0F5C /* Debug */,
+				624E93651E24C581008D0F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624E93431E24C581008D0F5C /* Project object */;
+}
