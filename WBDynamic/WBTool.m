@@ -14,6 +14,7 @@
 
 + (int)sumWithNumerOne:(int)numerOne numberTwo:(int)numberTwo{
 
+    NSLog(@"ddd");
     return numberTwo + numerOne;
 
 }
